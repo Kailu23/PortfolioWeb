@@ -1,0 +1,28 @@
+body.works { background-color: #a1c4ff;}
+
+.works .nav-wrapper > a:link,
+.works .nav-wrapper > a:visited {
+    color: #000;
+}
+
+.works .nav-wrapper > a:hover,
+.works .nav-wrapper > a:active{
+    color: #ff7300
+}
+
+.works .nav-wrapper > a[aria-current = "page"] {
+    color: #ff7300;
+}
+
+.works .contact-mail { 
+    background-color: #a1c4ff;
+    color: #000000;
+}
+
+.works .header-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -15%;
+    bottom: -7%;
+}
